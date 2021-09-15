@@ -58,7 +58,6 @@
 			<arg unless="$(arg omni_drive)" name="kinematics" value="skid"/>
 
 			<arg name="ros_planar_move_plugin" value="$(arg ros_planar_move_plugin)"/>
-			<arg name="launch_robot_localization" value="$(arg launch_robot_localization)"/>
 		</include>
 
 		<!-- robot_localization nodes, publishes transformation world->odom->base_footprint -->
